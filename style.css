@@ -1,0 +1,165 @@
+header {
+    width: 100%;
+    height: 65px;
+    box-shadow: 0px 3px 5px 0px grey;
+}
+
+.menu-img {
+    margin-top: 24px;
+    margin-left: 1%;
+    width: 16px;
+    height: 16px;
+}
+
+.more-img {
+    margin: 24px 1% 0 auto;
+    width: 16px;
+    height: 16px;
+}
+
+h1 {
+    margin-left: 1%;
+    position: relative;
+    bottom: 9px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.header-section {
+    display: flex;
+}
+
+.tools-box {
+    width: 190px;
+    height: 200px;
+    border: 2px solid grey;
+    padding: 1%;
+    margin-top: 10%;
+    margin-left: 2%;
+    box-shadow: 0px 3px 5px 0px grey;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.tools-box ul li {
+    margin: 17px;
+    font-family: sans-serif;
+}
+
+.tools-box img {
+    margin-right: 8px;
+    margin-left: -56px;
+    margin-top: 4px;
+}
+
+.line {
+    width: 220px;
+    height: 2px;
+    background-color: grey;
+    position: relative;
+    right: 55px;
+}
+
+.colors-box {
+    width: 190px;
+    height: 200px;
+    border: 2px solid grey;
+    padding: 1%;
+    margin-top: 3%;
+    margin-left: 2%;
+    box-shadow: 0px 3px 5px 0px grey;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.colors-box li {
+    text-align: left;
+    width: 100%;
+    margin: 11%;
+    margin-left: -15px;
+}
+
+button {
+    border: none;
+    background-color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.circle {
+    width: 16px;
+    height: 16px;
+    border: 1px solid grey;
+    border-radius: 100%;
+    margin-right: 13%;
+    display: inline-block;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.current-circle {
+    background-color: grey;
+}
+
+.prev-circle {
+    background-color: green;
+}
+
+.figures {
+    display: grid;
+    grid-template-rows: repeat(3, 200px);
+    grid-template-columns: repeat(3, 200px);
+    grid-gap: 5px;
+    height: 600px;
+    width: 600px;
+    margin-left: 37%;
+    margin-top: -540px;
+}
+
+.figure {
+    height: 200px;
+    width: 200px;
+}
+
+#figures-fig1 {
+    background-color: #CD9B95;
+}
+
+#figures-fig2 {
+    background-color: #DB83DB;
+}
+
+#figures-fig3 {
+    background-color: #857EB7;
+}
+
+#figures-fig4 {
+    background-color: #EDADC4;
+}
+
+#figures-fig5 {
+    background-color: #476889;
+}
+
+#figures-fig6 {
+    background-color: #DFD6FF;
+}
+
+#figures-fig7 {
+    background-color: #478989;
+}
+
+#figures-fig8 {
+    background-color: #e9a;
+}
+
+#figures-fig9 {
+    background-color: #7E94B7;
+}
+
+.press-font {
+    color: crimson;
+    font-weight: 700;
+}

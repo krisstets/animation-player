@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+
+    <title>CodeJam-Pallete</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-section">
+            <img class="menu-img" src="./assets/image/line-menu.png">
+            <h1>CodeJam-Pallete</h1>
+            <img class="more-img" src="./assets/image/more.png">
+        </div>
+    </header>
+    <main>
+        <section class="tools-box">
+            <ul style="list-style:none;">
+                <li><button class="button" id="paint-bucket"><img src="./assets/image/fill.png">Paint bucket(press <span class="press-font">P</span>)</button></li>
+                <li><button class="button" id="color-picker"><img src="./assets/image/pipette.png">Choose color(press <span class="press-font">C</span>)</button></li>
+                <div class="line"></div>
+                <li><button class="button" id="move-button"><img src="./assets/image/move-option.png">Move(press <span class="press-font">M</span>)</button></li>
+                <li><button class="button" id="transform-button"><img src="./assets/image/exchange-arrows.png">Transform(press <span class="press-font">T</span>)</button></li>
+            </ul>
+        </section>
+        <section class="colors-box">
+            <ul style="list-style:none;">
+                <li>
+                    <div class="circle current-circle" id="current-color"></div>Current color</li>
+                <li>
+                    <div class="circle prev-circle" id="prev-color"></div>Prev color</li>
+                <div class="line"></div>
+                <li>
+                    <div class="circle red" id="chosen-color"></div>red</li>
+                <li>
+                    <div class="circle blue" id="chosen-color"></div>blue</li>
+            </ul>
+        </section>
+        <div class="figures" id="container">
+            <div>
+                <div class='figure' id="figures-fig1"></div>
+            </div>
+            <div>
+                <div class='figure' id="figures-fig2"></div>
+            </div>
+            <div>
+                <div class='figure' id="figures-fig3"></div>
+            </div>
+            <div>
+                <div class='figure' id="figures-fig4"></div>
+            </div>
+            <div>
+                <div class='figure' id="figures-fig5"></div>
+            </div>
+            <div>
+                <div class='figure' id="figures-fig6"></div>
+            </div>
+            <div>
+                <div class='figure' id="figures-fig7"></div>
+            </div>
+            <div>
+                <div class='figure' id="figures-fig8"></div>
+            </div>
+            <div>
+                <div class='figure' id="figures-fig9"></div>
+            </div>
+        </div>
+    </main>
+    <script src="./index.js"></script>
+</body>
+
+</html>
